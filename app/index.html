@@ -38,19 +38,36 @@
         <a href="#section2">Spectrum</a>
         <a href="#section3">Try or buy</a>
     </nav>
-    <div class="header__content container">
+
+    <div class="header__content container" id="menu-2">
         <img class="logo" src="img/logo.png">
         <h2>Viz Insights Lab Healthcare</h2>
         <h1>Solution Showcase</h1>
         <button>Tell me more</button>
-        <img class="arrow-down" src="img/arrow-down.png" alt="">
+        <a href="#section2"><img class="arrow-down" src="img/arrow-down.png" alt=""></a>
     </div>
 </header>
 
 <section class="visualization container-fluid" id="section2">
+    <nav class="mobile-nav" role="navigation">
+        <div id="menuToggle">
+
+            <input type="checkbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu-1">
+                <a href="#section2"><li>Spectrum</li></a>
+                <a href="#section3"><li>About</li></a>
+
+            </ul>
+        </div>
+    </nav>
     <div class="visualization__content container">
         <h2>Visualization Alone Is insufficient</h2>
-        <p>There is a broad spectrum of needs and thus, uses of anlytics across any <br> business, all of which are
+        <p>There is a broad spectrum of needs and thus, uses of anlytics across any  business, all of which are
             critically important.</p>
         <h3>Analytics use cases</h3>
         <ul class="visualization__content__cases">
@@ -94,7 +111,7 @@
         <div class="visualization__content__slider">
             <div class="owl-carousel owl-theme">
                 <div class="item"><img src="img/hp.png"></div>
-                <div class="item"><img src="img/googleCloude.png"></div>
+                <div class="item "><img class="cloud" src="img/googleCloude.png"></div>
                 <div class="item"><img src="img/aws.png"></div>
                 <div class="item"><img src="img/salesForce.png"></div>
 
@@ -112,17 +129,18 @@
         <h2>ASSOCIATIVE MODEL</h2>
         <p class="last-p">SQL Query-based tools are like an elevator that takes you along a up or down a predefined
             drill path
-            answering the <br> question you had last week. VizInsightsLab's Associative Model is like a Wonkavator
+            answering the question you had last week. VizInsightsLab's Associative Model is like a Wonkavator
             allowing
-            you to travel in any direction <br> that the data takes you to provide answers now so you can make
+            you to travel in any direction that the data takes you to provide answers now so you can make
             decisions.
         </p>
-        <div style="display: flex; justify-content: center">
+        <div class="img-wrapper">
             <img class="img-responsive" src="img/img1.png">
         </div>
 
     </div>
 </section>
+
 <footer class="container-fluid footer" id="section3">
     <div class="container footer__content">
         <img class="phone" src="img/phone.png">
@@ -137,7 +155,7 @@
         </div>
     </div>
 </footer>
-<div class="footer__content__copyright">
+<div class="footer__content__copyright ">
     <p>Copyright 2018</p>
 </div>
 <script src='js/jquery.min.js'></script>
