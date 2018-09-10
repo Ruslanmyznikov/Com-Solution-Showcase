@@ -46,7 +46,7 @@ $(document).ready(function(){
             top = $(id).offset().top;
 
         //анимируем переход на расстояние - top за 1500 мс
-        $('body,html').animate({scrollTop: top}, 1500);
+        $('body,html').animate({scrollTop: top}, 900);
     });
 
 
@@ -64,20 +64,9 @@ $(document).ready(function(){
             top = $(id).offset().top;
 
         //анимируем переход на расстояние - top за 1500 мс
-        $('body,html').animate({scrollTop: top}, 1500);
+        $('body,html').animate({scrollTop: top}, 900);
     });
 
 
 
 });
-// function scrollHeightTrigger (height, fn) {
-//     var old_height = $(document).scrollTop();
-//     $(document).scroll(function () {
-//         var new_height = $(document).scrollTop();
-//         if (((height < new_height) && (height >= old_height)) ||
-//             ((height < old_height) && (height >= new_height))) {
-//             fn();
-//         }
-//         old_height = new_height;
-//     });
-// }
